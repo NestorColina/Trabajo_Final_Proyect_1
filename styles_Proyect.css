@@ -1,0 +1,139 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #fbfbfb;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration:none;
+    color: #0f0f0f;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 50px;
+}
+
+.logo img{
+    display: flex;
+    text-decoration:none;
+    border:0;
+
+}
+
+
+.body {
+    background-color: #fbfbfb;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    padding: 20px; /*espacio alrededor texto*/
+    scroll-behavior: smooth;
+}
+
+#CV{
+    display:flex;
+    justify-content: center;
+    font-size: 18px;
+    border: 20px;
+    box-align: center;
+    }
+
+.botom {
+    border-radius:2em;
+    background-color: #af599e; /*color botón*/
+    font-family: 'Raleway', sans-serif; /*tipografía texto*/
+    padding: 20px; /*espacio alrededor texto*/ 
+    color: rgb(255, 255, 255); /*color texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    text-decoration:none;
+    }
+
+#footer {
+    background-color: #af599e; /*color botón*/
+    color: #0f0f0f; /*color texto*/
+    border: 0px solid #af599e; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background: #af599e;
+    color: rgb(255, 255, 255); /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-family: '#fbfbfb', sans-serif; /*tipografía texto*/
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    }
+
+.comenta{
+    background: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f; /*color texto*/
+    font-family: 'Raleway', sans-serif;
+    max-width: 1200px;
+    padding: 20px; /*espacio alrededor texto*/
+    margin: auto;
+    line-height: 1.2;
+    text-indent: 18px;
+    text-align: center;
+    border-radius: 20px; /*bordes redondos*/
+    }
+
+
+#foto{
+    display:flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 20px; /*espacio alrededor texto*/
+    /*border: 20px;*/
+    box-align: center;
+    }
+
+.circular--square {
+    border-radius: 50%;
+    }
+
+#Inicio{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#Contacto{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+.uno{
+    line-height: 1.2;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 18px;
+    padding: 20px; /*espacio alrededor texto*/
+}
+
+
+.saltodepagina{
+    page-break-after: always;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    }
+
+.comienzo{
+    font-size: 06px;
+    text-decoration:none;
+
+}
